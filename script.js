@@ -81,11 +81,6 @@ $(document).ready(function() {
         window.location.href = '𝗡𝗮𝗱𝗲𝗲𝗺-𝗔𝗵𝗺𝗮𝗱-𝗖𝗩✍️📚.pdf'; // Update with your CV file path
     });
 
-    // Read more functionality
-    $('.read-more-btn').click(function() {
-        $('.more-content').slideToggle(); // Toggle content visibility
-        $(this).text($(this).text() === 'Read More' ? 'Read Less' : 'Read More'); // Change button text
-    });
 
     // Profile section functionality
     $('#profile-btn').click(function() {
@@ -156,6 +151,8 @@ document
 
 
 
+
+        
 // Competed :
 
 
